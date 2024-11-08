@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Allergy Wise App</string>
+    <string name="info">An allergy is an exaggerated immune response to typically harmless substances called allergens, such as pollen, dust mites, certain foods, or insect stings. When exposed to an allergen, the immune system mistakenly sees it as a threat, causing symptoms that can range from mild, like sneezing and itching, to severe, including life-threatening anaphylaxis. Understanding allergies is crucial for managing and preventing serious reactions.</string>
+    <string name="diagnose_info">Diagnosis typically involves several methods:\n  \n   • Medical History: \nDiscussing symptoms and potential triggers with a healthcare provider. \n  \n  • Skin Prick Test: \nIntroducing small amounts of suspected allergens into the skin to observe reactions like redness or swelling. \n  \n  • Blood Tests: \nMeasuring specific antibodies (IgE) in response to allergens. \n  \n  • Elimination Diet: \nRemoving suspected food allergens from the diet and gradually reintroducing them to identify triggers. \n  \n  • Challenge Testing: \nControlled exposure to suspected allergens under medical supervision.</string>
+    <string name="allergyawarenessinfo">Awareness is essential for recognizing, preventing, and managing allergies effectively. Key components include: \n\n  • Understanding the symptoms of allergic reactions.\n\n  • Knowing how to avoid known allergens and triggers. \n\n  • Promoting the use of emergency response plans, including the use of epinephrine auto-injectors for severe allergies. \n\n  • Educating communities on how to assist individuals experiencing a severe allergic reaction, ensuring timely medical assistance.\n \n</string>
+    <string name="allergy_medications_info">Allergy medications are available as pills, liquids, inhalers, nasal sprays, eye drops, skin creams, and injections, many of which can be bought without a prescription. Consult a healthcare professional to find the best treatment for you.</string>
+    <string name="medecationtypes">•\tOral Antihistamines (e.g., loratadine, cetirizine):\n These relieve symptoms like sneezing, runny nose, and itching by blocking histamines. They’re widely available over the counter and cause minimal drowsiness.\n\n•\tDecongestants (e.g., pseudoephedrine): \nUsed to relieve nasal congestion, these reduce blood vessel swelling in nasal passages. They’re for short-term use only, as prolonged use may cause rebound congestion.\n\n•\tNasal Corticosteroids (e.g., fluticasone, mometasone): \nHighly effective for nasal symptoms, these sprays reduce inflammation in the nasal passages. They can be used daily and often take a few days to show full effects.\n\n•\tEye Drops (e.g., ketotifen, olopatadine):\n Antihistamine or decongestant eye drops relieve itching, redness, and watery eyes. Some are available over the counter, providing quick relief for eye symptoms.\n\n•\tSkin Creams (e.g., hydrocortisone, calamine):\n These topical creams reduce itching, redness, and swelling caused by rashes or hives. Hydrocortisone is a mild corticosteroid suitable for short-term use.\n\n•\tLeukotriene Modifiers (e.g., montelukast):\n Prescription medication that blocks leukotrienes, chemicals involved in allergic reactions and asthma. They’re useful for persistent asthma or nasal allergy symptoms.\n\n•\tMast Cell Stabilizers (e.g., cromolyn sodium): \nPrevents mast cells from releasing histamine and other chemicals, available as nasal sprays or eye drops. Best when used before allergen exposure.\n\n•\tImmunotherapy (Allergy Shots or Sublingual Tablets):\n Desensitizes the body to specific allergens over time, reducing symptoms. Allergy shots are done in clinics, while some tablets can be taken at home.\n\n•\tOral Corticosteroids (e.g., prednisone):\n Powerful anti-inflammatory drugs prescribed for severe allergies or asthma. They’re effective but intended for short-term use due to side effects.\n\n•\tEpinephrine (e.g., EpiPen):\n Emergency treatment for anaphylaxis, a life-threatening allergic reaction. Epinephrine auto-injectors are critical for those with severe food, drug, or insect allergies.\n\n\n</string>
+
+    <string-array name="options">
+        <item>What is an Allergy?</item>
+        <item>Types of Allergies</item>
+        <item>How to Diagnose Allergies?</item>
+        <item>Allergy Medications</item>
+        <item>Allergy Awareness</item>
+        <item>Your Profile</item>
+    </string-array>
+
+    <string-array name="settings">
+        <item>Your Allergy</item>
+        <item>Your Medication</item>
+        <item>Emergency Contacts</item>
+    </string-array>
+</resources>

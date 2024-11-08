@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#014524"
+    tools:context=".YourAllergyActivity">
+
+    <TextView
+        android:id="@+id/txttitleallergy"
+        android:layout_width="226dp"
+        android:layout_height="82dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/chewy"
+        android:gravity="center"
+        android:text="Your Allergy "
+        android:textColor="#E0AE77"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="257dp"
+        android:layout_height="52dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="@font/acme"
+        android:inputType="text"
+        android:text="Name"
+        android:textColor="#E0AE77"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitleallergy" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Add"
+        android:textColor="#014524"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="284dp"
+        android:layout_height="332dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
